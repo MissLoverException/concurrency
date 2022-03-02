@@ -15,7 +15,7 @@ public class TestController {
     public String startTest() {
         Logger logger = LoggerFactory.getLogger(TestController.class);
         logger.info("request success!");
-        return "success";
+        return "success1";
     }
 
 }
